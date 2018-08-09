@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layouts</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet preload">
+</head>
+<body>
+    <div class="main-wrapper">
+      <header>
+        <div class="logo">
+            <p>Black &amp; white</p>
+        </div>
+        <nav>
+            <a role="button" href="#home" target="_self">Home</a>
+            <a role="button" href="#about" target="_self">About</a>
+            <a role="button" href="#vacancies" target="_self">Vacancies</a>
+            <a role="button" href="#shop" target="_self">Shop</a>
+        </nav>
+        <div class="heading">
+          <h1>black <span>&amp;</span> white</h1>
+          <p>An Original Brand Since 1965</p>
+        </div>
+        <button type="button">Show More</button>
+      </header>
+      <section class="subheader">
+        <div class="firstColumn">
+          <p>Lorem ipsum dolor, consectetur adipiscing. Aenean <b>commodo ligula</b> eget dolor.</p>
+        </div>
+        <div class="secondColumn">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus ipsam iure, atque sed, possimus incidunt earum esse perferendis libero velit voluptatibus dolore consequatur debitis, optio laboriosam explicabo? Ratione, laudantium.</p>
+        </div>
+      </section>
+      <main>
+        <p>Read some of our <b>featured articles</b></p>
+        
+        <article>
+          <img src="img/sample.jpg" alt="">
+          <p>Januari'15 <b>South France</b></p>
+          <div>
+            <div class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sed, officiis laborum quod impedit id voluptatum, atque, velit accusamus eveniet magni. Libero fugit at quam atque doloremque, accusantium nobis suscipit!
+          </div>
+          <button class="like" type="button">172 &hearts;</button>
+          </div>
+        </article>
+
+        <article>
+            <img src="img/sample3.jpg" alt="">
+            <p>Januari'15 <b>South France</b></p>
+            <div>
+              <div class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sed, officiis laborum quod impedit id voluptatum, atque, velit accusamus eveniet magni. Libero fugit at quam atque doloremque, accusantium nobis suscipit!
+            </div>
+            <button class="like" type="button">172 &hearts;</button>
+            </div>
+        </article>
+        
+        <article>
+            <img src="img/sample.jpg" alt="">
+            <p>Januari'15 <b>South France</b></p>
+            <div>
+              <div class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sed, officiis laborum quod impedit id voluptatum, atque, velit accusamus eveniet magni. Libero fugit at quam atque doloremque, accusantium nobis suscipit!
+            </div>
+            <button class="like" type="button">20&hearts;</button>
+            </div>
+        </article>
+
+        <article>
+            <img src="img/sample3.jpg" alt="">
+            <p>Januari'15 <b>South France</b></p>
+            <div>
+              <div class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sed, officiis laborum quod impedit id voluptatum, atque, velit accusamus eveniet magni. Libero fugit at quam atque doloremque, accusantium nobis suscipit!
+            </div>
+            <button class="like" type="button">150 &hearts;</button>
+            </div>
+        </article>
+
+        <section class="newsletter-subscription">
+            <h2 class="newsletter-subscription__header">Subscribe to our <b>newsletter</b></h2>
+            <form action="/subscribtion" method="post" class="newsletter-subscription__form">
+                <input type="email" name="email" class="newsletter-subscription__email" placeholder="Enter your e-mail address" required>
+                <input type="submit" class="newsletter-subscription__btn" value="Subscribe">
+            </form>
+        </section>
+      </main>
+    </div>
+    <footer>
+        <div class="wrapper">
+            <section class="footer-info">
+                <div class="footer__about">
+                    <h4 class="footer-info__header">Black&amp;White</h4>
+                    <p class="footer__text">When we control font loading in JavaScript, this often is the behavior we're after.
+                        We want to be sure the text is visible by default.</p>
+                </div>
+                <div class="footer__last-tweet">
+                    <h4 class="footer-info__header">Last Tweet</h4>
+                    <blockquote class="footer__last-tweet-text">Only reason why this is not certain is that it’s contingent
+                        on a shareholder vote.</blockquote>
+                    <p class="footer__last-tweet-time">3 hours ago</p>
+                </div>
+                <div class="footer__contact">
+                    <h4 class="footer-info__header">Contact</h4>
+                    <p class="footer__text"><a href="#"></a>www.google.com</p>
+                    <p class="footer__text"><a href="#">182 AB Your Street Name</a></p>
+                    <p class="footer__text"><a href="#">googlegoogle@gmail.com</a></p>
+                    <p class="footer__text"><a href="tel:+777777777">+777777777</a></p>
+                </div>
+                <div class="footer__newsletter">
+                    <h4 class="footer-info__header">Newsletter</h4>
+                    <p class="footer__text">Put your email here</p>
+                    <form action="/subscribtion" method="post" class="newsletter-subscription__form--footer">
+                        <input type="email" name="email" class="newsletter-subscription__email--footer" placeholder="Enter your e-mail address" required>
+                        <input type="submit" class="newsletter-subscription__btn--footer" value="Subscribe">
+                    </form>
+                </div>
+            </section>
+            <div class="footer__bottom">
+                <p class="footer__copyright">&copy; 2015 Ruben Stom</p>
+                <ul class="footer__navigation">
+                    <li><a href="/" class="footer__navigation__item">Home</a></li>
+                    <li><a href="/about" class="footer__navigation__item">About</a></li>
+                    <li><a href="/vacancies" class="footer__navigation__item">Vacancies</a></li>
+                    <li><a href="/shop" class="footer__navigation__item">Shop</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
