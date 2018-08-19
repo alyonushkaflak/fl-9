@@ -30,10 +30,6 @@ function calcSideC (sideA, sideB, angle) {
     return Math.sqrt(sideA*sideA + sideB*sideB - 2* sideA * sideB * Math.cos(angle * forCos));
 }
 
-// function calcPerimeter (sideA, sideB, sideC) {
-//     return sideA + sideB + sideC;
-// }
-
 function calcSquare (sideA, sideB, angle){
     let forCos = Math.PI / maxAngle;
     return sideA * sideB * Math.sin(angle * forCos)/2;
