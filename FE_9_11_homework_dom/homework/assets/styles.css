@@ -1,0 +1,42 @@
+/* Your styles goes here */
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#item {
+  margin: 20px;
+  width: 88%;
+  line-height: 12px;
+  margin-right: 10px;
+}
+
+#button {
+  background: transparent;
+  border: none;
+  vertical-align: middle;
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin-left:20px;
+    margin-right:40px;
+    padding: 0;
+    
+}
+
+ul{
+  margin-left:50px;
+  margin-top:10px;
+  list-style-type: none;
+}
+
+
