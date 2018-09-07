@@ -1,0 +1,11 @@
+/* Your styles go here */
+* {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    margin: 10px;
+    color:black;
+}
+
